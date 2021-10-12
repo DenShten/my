@@ -1,0 +1,224 @@
+/* Global view */
+body {
+    font-family: 'Asap', sans-serif;
+    background-image: url(image/Logo_Background.png);
+
+}
+
+.container {
+
+    min-height: 400px;
+    max-width: 1024px;
+    margin:0 auto; 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-top: 140px;
+    
+   
+
+}
+
+.header-container {
+
+    background-color:#4c544c;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    
+
+  
+}
+
+header {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.my {
+
+    font-weight: bold;
+}
+.navbuttons {
+
+    border: 1px solid;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+nav
+{
+    padding-right: 5px;
+}
+
+.logo p {
+    color:white;
+    padding-left: 5px;
+
+}
+
+.col {
+
+    background-color: lime;
+    width: 30%;
+    margin-bottom: 40px;
+    
+}
+
+.col img {
+
+    width: 100%;
+    height: auto;
+}
+
+.col p {
+
+    color:white;
+    font-size: 0.825rem;
+    padding: 20px 25px;
+    line-height: 1.25 rem;
+}
+
+.col p::first-line
+{
+    font-weight: bold;
+}
+
+.hide-desktop-only {
+
+    display: none;
+}
+
+.mob-wrapper {
+
+display: none;
+
+}
+ 
+
+
+/* Tablet View */
+@media (max-width: 768px){
+    
+ .col   {width: 47%;
+    
+}
+
+.hide-desktop-only {
+
+    display: block;
+ 
+}  
+
+
+nav {
+display: none;
+}
+
+ nav a 
+  {
+      display: block;
+  }
+
+  .navbuttons {
+
+    margin-left: 0px;
+  }
+  .logo {
+      padding: 40px 5px;
+  }
+.header-container {
+    
+    position: relative;
+    margin-bottom: 40px;
+     }
+
+.container {
+
+    padding: 0px;
+}
+
+    
+.mob-nav
+{
+    display: none;
+    position: absolute;
+    margin-left: -105px;
+    padding-top: 10px;
+}
+.mob-wrapper {
+
+    display: block;
+    padding-right: 10px;
+    
+    
+}
+
+.mybuttons 
+{
+    display: block;
+    background-color: rgba(128, 0, 128, 0.781);
+    padding: 15px 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+    
+
+}
+/* Mobile View */
+
+
+    
+    
+@media (max-width: 400px){
+        
+    .col{
+    
+        width: 100%;
+
+    }
+  .hide-mobile{
+
+    display:none; 
+
+  }
+  
+
+  nav {
+
+    display:none;
+  }
+  
+  nav a 
+  {
+      display: block;
+  }
+
+  .navbuttons {
+
+    margin-left: 0px;
+  }
+  
+  
+  .header-container {
+    
+    position: relative;
+    margin-bottom: 40px;
+     
+}
+
+
+}
+
