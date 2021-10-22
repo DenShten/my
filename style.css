@@ -1,7 +1,6 @@
 /* Global view */
 body {
     font-family: 'Asap', sans-serif;
-    background-image: url(image/Logo_Background.png);
 
 }
 
@@ -68,7 +67,7 @@ nav
 
 .col {
 
-    background-color: lime;
+    background-color: rgb(43, 44, 43);
     width: 30%;
     margin-bottom: 40px;
     
@@ -80,6 +79,9 @@ nav
     height: auto;
 }
 
+.col a {
+    text-decoration: none;
+}
 .col p {
 
     color:white;
@@ -107,7 +109,7 @@ display: none;
 
 
 /* Tablet View */
-@media (max-width: 768px){
+@media (max-width: 767px){
     
  .col   {width: 47%;
     
